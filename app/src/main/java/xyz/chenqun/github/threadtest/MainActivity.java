@@ -79,6 +79,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
+                        //aa
                         text.setText("Nice to meet you");
                         Message message = new Message();
                         message.what = UPDATE_TEXT;
